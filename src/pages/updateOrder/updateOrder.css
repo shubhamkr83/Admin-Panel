@@ -1,0 +1,136 @@
+.Order {
+    flex: 4;
+    padding: 20px;
+}
+
+.OrderTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.OrderTop {
+    display: flex;
+}
+
+.OrderTopLeft,
+.OrderTopRight {
+    flex: 1;
+}
+
+.OrderForm>label {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.OrderForm>input {
+    padding: 13px;
+}
+
+.inputContainer {
+    padding: 13px;
+}
+
+.OrderTopRight {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.OrderInfoImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.OrderInfoTop {
+    display: flex;
+    align-items: center;
+}
+
+.OrderName {
+    font-weight: 600;
+}
+
+.OrderInfoBottom {
+    margin-top: 10px;
+}
+
+.OrderInfoItem {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.OrderInfoValue {
+    font-weight: 300;
+}
+
+.OrderBottom {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.OrderForm {
+    display: flex;
+    justify-content: center;
+}
+
+.OrderFormLeft {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+}
+
+.OrderFormLeft>label {
+    margin-bottom: 5px;
+    color: rgb(70, 67, 67);
+}
+
+.OrderFormLeft>input {
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px 30px;
+    border-bottom: 2px solid rgb(96, 92, 92);
+}
+
+.OrderFormLeft>select {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.OrderUploadImg {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.OrderFormRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.OrderUpload {
+    display: flex;
+    align-items: center;
+}
+
+.OrderButton {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}

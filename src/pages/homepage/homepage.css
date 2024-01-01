@@ -1,0 +1,8 @@
+.homepage {
+    flex: 4;
+}
+
+.homedigits {
+    margin: 20px;
+    display: flex;
+}
